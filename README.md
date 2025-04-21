@@ -111,6 +111,7 @@ class SendEmailCommand extends Command
         $this->info('Email Job Dispatched!');
     }
 }
+```
 
 4. Create Blade View
 ```bash
@@ -118,6 +119,7 @@ class SendEmailCommand extends Command
 
 <h1>{{ $title }}</h1>
 <p>{{ $body }}</p>
+```
 
 5. Register Command in Scheduler
 ```bash
@@ -141,7 +143,7 @@ php artisan migrate
 
 php artisan queue:work
 ```
-## 💡 Keep this running in a separate terminal so jobs can be processed as they’re dispatched.
+💡 Keep this running in a separate terminal so jobs can be processed as they’re dispatched.
 
 ## 🔧 Test It Manually
 ```bash
