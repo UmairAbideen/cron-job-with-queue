@@ -9,7 +9,7 @@ Cron ensures a task is run regularly (like every minute).
 Queue makes sure the job (like sending an email) runs asynchronously, in the background.
 Perfect for tasks that take time and shouldn't affect the user experience.
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Tool	Purpose
 Laravel 10	PHP Framework
