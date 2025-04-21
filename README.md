@@ -11,11 +11,13 @@ Perfect for tasks that take time and shouldn't affect the user experience.
 
 ## 🛠️ Tech Stack
 
-Tool	Purpose
-Laravel 10	PHP Framework
-Mail::send	Send emails (no Mailable used)
-Database Queue	Store queued jobs
-Blade View	Email content layout
+| Tool            | Purpose                          |
+|-----------------|----------------------------------|
+| Laravel 10      | PHP Framework                    |
+| Mail::send      | Send emails (no Mailable used)   |
+| Database Queue  | Store queued jobs                |
+| Blade View      | Email content layout             |
+
 
 ## 📝 Step-by-Step Guide
 
